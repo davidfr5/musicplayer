@@ -6,7 +6,7 @@ import os #para interactuar con la interfaz
 music_player = tkr.Tk() 
 music_player.title("QUE ESCUCHAMOS HOY JEFE?") 
 music_player.geometry("450x250")
-
+#Ask for a directory
 directory = askdirectory()
 os.chdir(directory) #it permits to chenge the current dir
 song_list = os.listdir() #it returns the list of files song
